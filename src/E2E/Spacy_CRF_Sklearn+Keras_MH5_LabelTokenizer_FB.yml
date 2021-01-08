@@ -1,0 +1,30 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: en
+pipeline:
+  - name: SpacyNLP
+  - name: SpacyTokenizer
+  - name: SpacyFeaturizer
+  - name: RegexFeaturizer
+  - name: CRFEntityExtractor
+  - name: SklearnIntentClassifier
+  - name: EntitySynonymMapper
+  - name: ResponseSelector
+    epochs: 100
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+  - name: KerasPolicy
+    featurizer:
+      - name: MaxHistoryTrackerFeaturizer
+        max_history: 5
+        state_featurizer:
+          - name: LabelTokenizerSingleStateFeaturizer
+  - name: MappingPolicy
+  - name: FallbackPolicy
+    nlu_threshold: 0.2
+    ambiguity_threshold: 0.1
+    core_threshold: 0.2
+    fallback_action_name: "action_default_fallback"
+  - name: FormPolicy

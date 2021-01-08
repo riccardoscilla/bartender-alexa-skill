@@ -1,0 +1,88 @@
+//=============== Aliases definitions ===============
+//--- COMMON ---
+
+~[hi]
+    [hey|hi|hello] [there|bot?]
+    greetings
+    good [morning|afternoon|evening|night]
+
+~[bye]
+    ~[thanks?] bye
+    ~[thanks?] goodbye
+    ~[thanks?] see you [around|later?]
+
+~[thanks]
+    thanks
+    thank you [very much?]
+    ~[ok] thank you
+    thanks [for helping|so much]
+
+~[yes]
+	yes [of course|please?]
+	of course
+	~[ok]
+	exactly
+	correct
+	that sounds good
+
+~[ok]
+	ok
+	okay
+	alright
+	right
+	fine
+
+
+~[continue]
+	continue
+	proceed
+
+~[no]
+	no
+	never
+	I don't think so
+	don't like that
+	no way
+	not really
+	stop
+	nothing else
+	nothing
+	no thanks
+	no i'm done
+	i'm done
+	no more
+
+~[i]
+	i
+	we
+
+~[be]
+	i am
+	i'm
+	we are
+	we're
+
+~[me]
+	me
+	to me
+	us
+	to us
+
+~[searching]
+	searching
+	looking
+
+~[search_cat_ingr]
+	@[ingredient]
+	@[category]
+	[~[i] want a?] @[category]
+	[~[i] want a?] @[category] with @[ingredient]
+	[~[i] want a?] @[category] with @[ingredient] and @[ingredient]
+	@[ingredient] and @[ingredient]
+	[~[be] ~[searching] for a?] @[category]
+	[~[be] ~[searching] for a?] @[category] with @[ingredient]
+	[~[be] ~[searching] for a?] @[category] with @[ingredient] and @[ingredient]
+	[do you [have|know|] any?] @[category] 
+	[do you [have|know|] any?] @[category] with @[ingredient]
+	[do you [have|know|] any?] @[category] with @[ingredient] and @[ingredient]
+

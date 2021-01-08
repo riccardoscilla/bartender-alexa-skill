@@ -1,0 +1,111 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- explain
+- search_provider
+- ask_repeat
+- affirm
+- ask_preparation
+- deny
+- cardinal
+- ask_ingredients
+- greet
+- thanks
+- ask_functions
+- goodbye
+- out_of_scope
+entities:
+- cardinal
+- category
+- cocktail
+- ingr_list
+- ingredient
+- proposes
+slots:
+  cardinal:
+    type: text
+  category:
+    type: text
+    auto_fill: false
+  cocktail:
+    type: text
+  ingr_list:
+    type: text
+    initial_value: ''
+  ingredient:
+    type: list
+    auto_fill: false
+  more_results:
+    type: bool
+    initial_value: false
+  multiple_options:
+    type: bool
+    initial_value: false
+  proposes:
+    type: text
+  requested_slot:
+    type: unfeaturized
+responses:
+  utter_affirm:
+  - text: Sure!
+  - text: I'm on it!
+  utter_ask_affermation:
+  - text: Did you mean?
+  utter_ask_cardinal:
+  - text: Which one do you want?
+  utter_ask_category:
+  - text: Which category do you want to drink?
+  utter_ask_continue:
+  - text: Do you want to continue?
+  utter_ask_explanation:
+  - text: Do you want to see more information?
+  utter_ask_ingredient:
+  - text: Which ingredient do you prefer?
+  - text: Which ingredient do you want to add first?
+  utter_ask_more_ingredient:
+  - text: Which ingredient do you want to add?
+  - text: Which ingredient do you prefer to add?
+  utter_ask_something_else:
+  - text: How can I help you again?
+  utter_default:
+  - text: Sorry, didn't understand. Please try again
+  utter_explain_functions:
+  - text: I can help you choosing what to drink, suggest some cocktails given the
+      ingredients you have at home and give you the instructions on how to prepare
+      it.
+  utter_goodbye:
+  - text: Bye!
+  utter_how_can_i_help:
+  - text: Hello. I am a bartender bot. How can I help you?
+  utter_list_category:
+  - text: The available categories are cocktail, shot and punch.
+  utter_you_are_welcome_ask_something_else:
+  - text: You are welcome! How can I help you again?
+actions:
+- action_ask_confirm
+- action_explain
+- action_list_ingredients
+- action_preparation
+- action_repeat
+- action_reset_all_slots
+- action_search
+- action_continue
+- utter_affirm
+- utter_ask_affermation
+- utter_ask_cardinal
+- utter_ask_category
+- utter_ask_continue
+- utter_ask_explanation
+- utter_ask_ingredient
+- utter_ask_more_ingredient
+- utter_ask_something_else
+- utter_default
+- utter_explain_functions
+- utter_goodbye
+- utter_how_can_i_help
+- utter_list_category
+- utter_you_are_welcome_ask_something_else
+forms:
+- choice_form
+- search_form

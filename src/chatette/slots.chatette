@@ -1,0 +1,174 @@
+@[ingredient]
+	gin
+	creme de cacao
+	light cream
+	nutmeg
+	lemon juice
+	maraschino liqueur
+	baileys irish cream
+	grand marnier
+	kahlua
+	rum
+	galliano
+	pineapple juice
+	lime juice
+	prosecco
+	champagne
+	peach schnapps
+	vodka
+	tomato juice
+	worcestershire sauce
+	tabasco sauce
+	lime
+	sugar syrup
+	creme de mure
+	sugar
+	cachaca
+	orange bitters
+	cherry
+	grenadine
+	lemon
+	egg white
+	absolut citron
+	cointreau
+	cranberry juice
+	light rum
+	coca-cola
+	dark rum
+	ginger beer
+	peach bitters
+	mint
+	dry vermouth
+	olive brine
+	olive
+	orange
+	maraschino cherry
+	cognac
+	amaretto
+	raspberry liqueur
+	powdered sugar
+	carbonated water
+	scotch
+	triple sec
+	orange juice
+	cream
+	green creme de menthe
+	grapefruit juice
+	lemon peel
+	brandy
+	ginger ale
+	bitters
+	irish whiskey
+	coffee
+	whipped cream
+	tequila
+	orgeat syrup
+	sweet and sour
+	sweet vermouth
+	bourbon
+	angostura bitters
+	ice
+	orange peel
+	salt
+	soda water
+	benedictine
+	campari
+	water
+	apricot brandy
+	coconut milk
+	pineapple
+	pisco
+	port
+	egg yolk
+	creme de cassis
+	drambuie
+	ricard
+	peychaud bitters
+	white creme de menthe
+	agave syrup
+	anis
+	lillet blanc
+	blended whiskey
+	white rum
+
+@[cocktail]
+	alexander
+	aviation
+	b-52
+	barracuda
+	bellini
+	bloody mary
+	bramble
+	caipirinha
+	casino
+	clover club
+	cosmopolitan
+	cuba libre
+	dark and stormy
+	derby
+	dirty martini
+	dry martini
+	espresso martini
+	french 75
+	french connection
+	french martini
+	gin fizz
+	godfather
+	golden dream
+	grasshopper
+	harvey wallbanger
+	hemingway special
+	horse's neck
+	irish coffee
+	kamikaze
+	long island iced tea
+	mai tai
+	manhattan
+	margarita
+	martini
+	mary pickford
+	mimosa
+	mojito
+	monkey gland
+	moscow mule
+	negroni
+	old fashioned
+	paradise
+	pina colada
+	pisco sour
+	planter's punch
+	porto flip
+	rose
+	russian spring punch
+	rusty nail
+	sazerac
+	screwdriver
+	sea breeze
+	sidecar
+	spritz
+	stinger
+	tequila sunrise
+	tommy's margarita
+	tuxedo cocktail
+	vampiro
+	vesper
+	whiskey sour
+	white lady
+	yellow bird
+
+@[category]
+	[long drink|cocktail] = cocktail
+	shot
+	punch
+
+@[cardinal]
+    [one|first|1st] = 1
+    [two|second|2nd] = 2
+    [three|third|3rd] = 3
+    [four|fourth|4th] = 4
+    [five|fifth|5th] = 5
+    [six|sixth|6th] = 6
+    [seven|seventh|7th] = 7
+    [eight|eighth|8th] = 8
+    [nine|ninth|9th] = 9
+    [ten|tenth|10th] = 10

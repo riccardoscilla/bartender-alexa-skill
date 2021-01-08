@@ -1,0 +1,53 @@
+%[greet](10)
+	~[hi]
+
+%[goodbye](10)
+	~[bye]
+
+%[thanks](10)
+	~[thanks]
+
+%[affirm](10)
+	~[yes]
+
+%[deny](10)
+	~[no]
+
+%[ask_functions](20)
+	what can you do
+	how can you help ~[me?]
+	[show?] functionalities
+
+%[ask_ingredients](20)
+	[which?] ingredients did [~[i] choose?]
+	show me the ingredients [~[i] choose?]
+	list ingredients [~[i] choose?]
+
+%[search_provider](100)
+	~[i] am dirsty
+	~[i] want to drink [something [today|tonight|this evening|this afternoon?]]
+	~[i] want a drink [today|tonight|this evening|this afternoon?]
+	~[search_cat_ingr]
+
+%[explain](100)
+	explain [it?]
+	explain @[cocktail]
+	what is @[cocktail]
+	i want @[cocktail]
+
+%[ask_preparation](50)
+	prepare [it?]
+	prepare @[cocktail]
+	how can i prepare [it?]
+	how can i prepare @[cocktail]
+
+%[ask_repeat](10)
+	[could you?] repeat [please?]
+	~[i?] [don't|do not] understand
+
+%[cardinal](50)
+    [i want?] [the?] @[cardinal] [one?] [please?]
+
+
+|aliases.chatette
+|slots.chatette

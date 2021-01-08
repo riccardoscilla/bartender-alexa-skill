@@ -1,0 +1,67 @@
+{
+  "Keras_FD_Binary": [
+    [
+      17
+    ]
+  ],
+  "Keras_MH5_Binary_FB": [
+    [
+      15
+    ]
+  ],
+  "Keras_MH5_Binary": [
+    [
+      16
+    ]
+  ],
+  "Keras_MH5_LabelTokenizer_FB": [
+    [
+      17
+    ]
+  ],
+  "TED_MH1_E100": [
+    [
+      14
+    ]
+  ],
+  "TED_MH1_E200": [
+    [
+      13
+    ]
+  ],
+  "TED_MH3_E100": [
+    [
+      17
+    ]
+  ],
+  "TED_MH5_E100_FB": [
+    [
+      17
+    ]
+  ],
+  "TED_MH5_E100_HL2": [
+    [
+      17
+    ]
+  ],
+  "TED_MH5_E100_HL3_FB": [
+    [
+      12
+    ]
+  ],
+  "TED_MH5_E100_HL3": [
+    [
+      13
+    ]
+  ],
+  "TED_MH5_E100": [
+    [
+      17
+    ]
+  ],
+  "TED_MH5_E200_HL3_FB": [
+    [
+      16
+    ]
+  ]
+}
